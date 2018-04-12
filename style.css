@@ -1,0 +1,287 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #FFF;
+}
+/* --header-- */
+
+header{
+    background-color:#405993;
+    border-bottom: 1px solid #7f8fb6;
+    height: 83px;
+}
+
+.header-content{
+    overflow: hidden;
+    width:980px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+/* Logo */
+.logo{ 
+    float:left;
+    padding-top: 13px;
+    width:50%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 170px;
+    height: 33px;
+}
+/* Logo end */
+/* Login */
+.login{
+    float: right;
+    width: 350px;
+    height: 65px;
+}
+
+.e-mail{
+    float: left;
+}
+
+.e-mail label{
+    color: #FFF;
+}
+
+.e-mail input[type='text']{
+    height:18px;
+}
+
+.password{
+    float: left;
+    margin-left: 20px;
+}
+
+.password label{
+    color: #FFF;
+}
+
+.password input[type='text']{
+    height:18px;
+    margin-bottom: 3px;
+}
+
+.password a{
+    color: #9cb4d8;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* Log in button */
+.botton{
+    float: left;
+}
+
+.login input[type="submit"]{
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid #415c99;
+    background-color: #4867ad;
+    padding: 5px;
+    font-size: 10px;
+    color: #FFF;
+    margin-top: 18px;
+    margin-left: 20px;
+    
+}
+/* Log in button end */
+/* Login */
+/*  header end */
+/*  main */
+.main{
+ background: linear-gradient(#fff, #d9ddeb); 
+    overflow: hidden;
+   /* Q:I couldn't do gradietion of background-color*/
+}
+
+.main-content{
+    width: 980px;
+    margin:40px auto 0 auto;
+    overflow: hidden;
+    
+}
+
+/* message */
+.msg{
+   color: #0e385f;
+   font-weight: bold;
+   font-size: 24px;
+   width: 450px;
+   margin-left: 2px;
+   word-spacing: -1px;
+}
+/* message-end */
+/* map image */
+.map{
+    width: 580px;
+    float: left;
+}
+.map img{
+    width: 537px;
+    height: 195px;
+    margin-top: 5px;
+    
+}
+/* map image-end */
+
+/* account */
+.account{
+    width: 400px;
+    float: right;
+}
+
+.accountStc{
+    margin-bottom: 20px;
+}
+
+.account h2{
+    font-size: 36px;
+    margin-top: -1px;
+}
+
+.account span{
+    color: #1d2129;
+    font-size: 18px;
+}
+/* accout name */
+.account input[type="text"]{
+    width: 178px;
+    height: 27px;
+    margin-right: 6px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #bdc7d8;
+    font-size: 18px;
+    padding: 5px;
+}
+/* account name-end */
+/* newId e-mail or phone */
+.newId input[type="text"]{
+    width: 380px;
+    height: 27px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: #bdc7d8;
+    font-size: 18px;
+    padding: 5px;
+}
+/* newId end */
+/* account-end */
+/* Birthday */
+
+.Birthday {
+    margin: 20px 0px;
+}
+
+.Birthday label {
+    font-size: 18px;
+}
+
+/* birthForm */
+.birthForm{
+    margin: 10px 0px;
+}
+/* birthForm end */
+
+/* birthdaySelect */
+.birthdaySelect{
+    float: left;
+}
+
+.birthdaySelect select:first-child{
+    width: 50px;
+    height: 30px;
+}
+.birthdaySelect select{
+    width: 65px;
+    height: 30px;
+}
+/* bitthdaySelect-end */
+
+/* birthdayInf */
+.birthdayInf{
+    float: left;
+    margin-left: 10px;
+    width: 130px;
+}
+
+.birthdayInf a:link{
+    color: #5c75a9;
+    text-decoration: none;
+}
+
+.birthdayInf a:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+}
+.birthdayInf span {
+    font-size: 12px;
+}
+/* birthdayInf end */
+/* Birthday end */
+
+/* subStc */
+.subStc{
+    width: 316px;
+    margin: 10px 0;
+}
+.subStc span {
+    font-size: 14px;
+    color: #808B96;
+}
+.subStc a:link{
+    text-decoration: none;
+    color: #365899;
+}
+.subStc a:hover{
+    text-decoration: underline;
+}
+/* subStc-end */
+
+/* Gender */
+table {
+    width: 180px;
+    font-size: 18px;
+    padding-top: 10px;
+}
+/* Gender */
+
+/* Create Account button */
+.account input[type="submit"]{
+    width: 195px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #91a58c;
+    background-color: #658b4d;
+    font-size: 20px;
+    color: #FFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* Create Account button-end */
+
+/* createPage */
+.createPage span{
+    color: #808B96;
+    font-size: 15px;
+    font-weight: bold;
+}
+.createPage a:link{
+    color: #365899;
+    text-decoration: none;
+}
+.createPage a:hover{
+    text-decoration: underline;
+}
+/* createPage-end */
+
+/* -- main end --*/
+
+
